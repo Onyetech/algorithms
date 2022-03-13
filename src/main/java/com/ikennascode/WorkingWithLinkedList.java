@@ -12,6 +12,7 @@ public class WorkingWithLinkedList {
         linkedList.add(new Person("Mark", 67));
         linkedList.addFirst(new Person("Sunday", 18));
 
+
         ListIterator<Person> personListIterator = linkedList.listIterator();
         while (personListIterator.hasNext()){
             System.out.println(personListIterator.next());

@@ -11,6 +11,7 @@ public class WorkingWithMaps {
 
         System.out.println(new Person("Jamila").hashCode());
         System.out.println(new Person("Jamila").hashCode());
+        System.out.println(new Person("Jamila").hashCode());
         System.out.println(map.get(new Person("Jamila")));
 
     }

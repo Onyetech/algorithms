@@ -10,6 +10,7 @@ public class WorkingWithStacks {
         stack.push(3);
         stack.push(6);
         stack.push(9);
+
         System.out.println(stack.peek());
         System.out.println(stack.size());
         System.out.println(stack.pop());
