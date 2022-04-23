@@ -28,7 +28,5 @@ public class Question {
 //        print both m and n above together in sorted order
 
 
-
-
     }
 }
