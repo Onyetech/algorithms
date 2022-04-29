@@ -9,7 +9,7 @@ public class WorkingWithQueues {
 
         LinkedList<Person> linkedList = new LinkedList<>();
         linkedList.add(new Person("James", 33));
-        linkedList.add(new Person("Onoo", 35));
+        linkedList.add(new Person("Mark", 35));
         linkedList.addFirst(new Person("Jonathan", 45));
 
         ListIterator<Person> personListIterator = linkedList.listIterator();
@@ -26,8 +26,8 @@ public class WorkingWithQueues {
         supermarket.add(new Person("John", 34));
         supermarket.add(new Person("Caleb", 27));
 
-        System.out.println(supermarket.peek()); //shows the peek value
-        System.out.println(supermarket.remove()); //removes
+        System.out.println("the peak ................ " +supermarket.peek()); //shows the peek value
+        System.out.println("Removed    ......" +supermarket.remove()); //removes
         System.out.println(supermarket);
 
         System.out.println(supermarket.peek()); //shows the peek value

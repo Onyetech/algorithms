@@ -59,6 +59,7 @@ public class LinkedListExample {
         list = insert(list, 6);
         list = insert(list, 7);
         list = insert(list, 8);
+        System.out.println(" ");
         System.out.println(list);
 
     }
