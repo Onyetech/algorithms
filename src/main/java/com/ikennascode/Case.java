@@ -9,7 +9,8 @@ public class Case {
     public static void main(String[] args) {
 
         Case2 c = new Case2();
-        c.call("gg");
+        String dog = c.call();
+        System.out.println(dog);
 
 
         String name = "Susan";
@@ -27,6 +28,8 @@ public class Case {
 //        System.out.println(s + "!");
         return s + "!";
     }
+
+
 
 
 
