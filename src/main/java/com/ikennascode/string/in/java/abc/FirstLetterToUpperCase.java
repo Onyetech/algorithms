@@ -19,7 +19,5 @@ public class FirstLetterToUpperCase {
         }
         System.out.println(x);
         System.out.println(y);
-
     }
-
 }
